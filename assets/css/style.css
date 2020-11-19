@@ -1,0 +1,1298 @@
+.aptaxi-website-content {
+    background-color: #2b2a2b;
+}
+
+.aptaxi-categories-wrapper .aptaxi-categories-content {
+    align-items: center;
+    justify-content: center;
+}
+.aptaxi-categories-content .aptaxi-home-loop-post {
+    width: 45%;
+    margin: 10px;
+}
+.aptaxi-categories-content .aptaxi-home-loop-post .aptaxi-loop-post-content .aptaxi-loop-post-link img {
+    filter: grayscale(100%);
+}
+.aptaxi-categories-content .aptaxi-home-loop-post .aptaxi-loop-post-content .aptaxi-loop-post-link:hover img {
+    filter: none;
+}
+.aptaxi-website-content .aptaxi-section-title-wrapper {
+    width: 100%;
+}
+
+
+
+.aptaxi-website-content .aptaxi-section-title-wrapper .aptaxi-section-title {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+.aptaxi-website-content .aptaxi-section-title-wrapper .aptaxi-section-title strong {
+    color: #e36703;
+}
+.aptaxi-website-content .aptaxi-section-title-wrapper .aptaxi-section-title::before {
+    content: '';
+    position: absolute;
+    width: 4%;
+    padding: 0;
+    height: 1px;
+    border-bottom: 1px solid #e36703;
+    margin: 5px 0;
+    top: 30px;
+    left: 48%;
+}
+
+
+
+.aptaxi-advantage-section .aptaxi-advantage-section-wrapper {
+    margin: 40px auto;
+}
+.aptaxi-advantage-section .aptaxi-advantage-section-wrapper .aptaxi-advantage-section-content {
+    align-items: center;
+    justify-content: center;
+}
+.aptaxi-advantage-section .aptaxi-advantage-section-wrapper .aptaxi-advantage-section-content .aptaxi-advantage-grid {
+    width: 45%;
+    margin: 15px;
+    padding: 0 10px;
+}
+.aptaxi-advantage-section .aptaxi-advantage-section-wrapper .aptaxi-advantage-section-content .aptaxi-advantage-grid > * {
+    width: 100%;
+    display: block;
+    padding: 25px 0;
+    height: auto;
+}   
+.aptaxi-advantage-section .aptaxi-advantage-section-wrapper .aptaxi-advantage-section-content .aptaxi-advantage-grid > :nth-child(2) {
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+}
+.aptaxi-advantage-section-wrapper .aptaxi-advantage-section-content .aptaxi-advantage-grid .aptaxi-advant-loop .aptaxi-advant-loop-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.aptaxi-advantage-section-wrapper .aptaxi-advantage-section-content .aptaxi-advantage-grid .aptaxi-advant-loop .aptaxi-advant-loop-link img {
+    margin-right: 10px;
+    filter: none;
+}
+.aptaxi-advantage-section-content .aptaxi-advantage-grid .aptaxi-advant-loop .aptaxi-advant-loop-link strong {
+    border-radius: 50%;
+    border: 1px solid #666666;
+    width: 15%;
+    height: 80px;
+    padding: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #e36703;
+}
+.aptaxi-advantage-section-content .aptaxi-advantage-grid .aptaxi-advant-loop .aptaxi-advant-loop-link span {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    color: #666666;
+    width: 75%;
+    margin: 0 10px;
+}
+.aptaxi-advantage-section-wrapper .aptaxi-advantage-section-content .aptaxi-advantage-grid .aptaxi-advant-loop .aptaxi-advant-loop-link:hover,
+.aptaxi-advantage-section-wrapper .aptaxi-advantage-section-content .aptaxi-advantage-grid .aptaxi-advant-loop .aptaxi-advant-loop-link:hover strong i,
+.aptaxi-advantage-section-wrapper .aptaxi-advantage-section-content .aptaxi-advantage-grid .aptaxi-advant-loop .aptaxi-advant-loop-link:hover strong,
+.aptaxi-advantage-section-wrapper .aptaxi-advantage-section-content .aptaxi-advantage-grid .aptaxi-advant-loop .aptaxi-advant-loop-link:hover span {
+    color: #fff;
+}
+.aptaxi-advantage-section-wrapper .aptaxi-advantage-section-content .aptaxi-advantage-grid .aptaxi-advant-loop .aptaxi-advant-loop-link:hover img {
+    filter: brightness(5);
+}
+/* .aptaxi-advantage-section-content .aptaxi-advantage-grid .aptaxi-advant-loop .aptaxi-advant-loop-link > .first-icon {
+    width: 110px;
+} */
+
+
+
+.aptaxi-about-us-section .aptaxi-about-us-wrapper {
+    margin-bottom: 40px;
+}
+.aptaxi-about-us-section .aptaxi-about-us-wrapper .aptaxi-about-us-content {
+    width: 100%;
+    text-align: center;
+}
+.aptaxi-about-us-section .aptaxi-about-us-wrapper .aptaxi-about-us-content .aptaxi-about-us-description p {
+    line-height: 20px;
+    padding: 10px 0;
+    color: #666666;
+}
+
+
+
+.aptaxi-website-content .aptaxi-page-loop {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content .aptaxi-left-columns,
+.aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content .aptaxi-loop-main {
+    padding-top: 0;
+}
+.aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content {
+    flex-wrap: nowrap;
+}
+.aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content .aptaxi-left-columns {
+    width: 25%;
+}
+.aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content .aptaxi-loop-main {
+    background-color: #fff;
+    color: #2b2a2b;
+    width: 75%;
+    padding: 25px;
+}
+.aptaxi-page-loop-content .aptaxi-loop-main .AptaxiBreadcrumbs {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.aptaxi-page-loop-content .aptaxi-loop-main .AptaxiBreadcrumbs span {
+    font-size: 14px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin: 0 3px;
+}
+.aptaxi-page-loop-content .aptaxi-loop-main .AptaxiBreadcrumbs .kb_sep {
+    margin: 0 2px;
+}
+.aptaxi-page-loop-content .aptaxi-loop-main .AptaxiBreadcrumbs > :first-child {
+    margin-left: 0;
+}
+.aptaxi-page-loop-content .aptaxi-loop-main .AptaxiBreadcrumbs span a {
+    color: #2b2a2b;
+}
+.aptaxi-page-loop-content .aptaxi-loop-main .AptaxiBreadcrumbs span a i {
+    font-size: 18px;
+}
+.aptaxi-page-loop-content .aptaxi-loop-main .AptaxiBreadcrumbs span a:hover {
+    color: #e36703;
+}
+.aptaxi-page-loop-content .aptaxi-loop-main .aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-title-page-wrapper,
+.aptaxi-loop-main .aptaxi-loop-main-content .aptaxi-loop-archive-post .aptaxi-title-page-wrapper,
+.aptaxi-loop-main .aptaxi-loop-main-content .aptaxi-loop-single-post .aptaxi-title-page-wrapper {
+    padding: 15px 0;
+}
+.aptaxi-page-loop-content .aptaxi-loop-main .aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-title-page,
+.aptaxi-loop-main .aptaxi-loop-main-content .aptaxi-loop-archive-post .aptaxi-title-page-wrapper .aptaxi-title-page {
+    font-size: 30px;
+    font-family: "Segoe UI Black";
+    line-height: 24px;
+    color: #2b2a2b;
+    text-transform: uppercase;
+    position: relative;
+}
+.aptaxi-loop-main .aptaxi-loop-main-content .aptaxi-loop-single-post .aptaxi-title-page-wrapper .aptaxi-title-page {
+    font-size: 24px;
+    font-family: "Segoe UI Black";
+    line-height: 1.1;
+    color: #2b2a2b;
+    position: relative;
+    width: 75%;
+}
+.aptaxi-page-loop-content .aptaxi-loop-main .aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-title-page::before,
+.aptaxi-loop-main .aptaxi-loop-main-content .aptaxi-loop-archive-post .aptaxi-title-page-wrapper .aptaxi-title-page::before {
+    content: "";
+    width: 5%;
+    height: 2px;
+    top: 35px;
+    left: 0;
+    position: absolute;
+    background: #e36703;
+    border-color: #e36703;
+}
+.aptaxi-loop-main .aptaxi-loop-main-content .aptaxi-loop-single-post .aptaxi-title-page-wrapper .aptaxi-title-page::before {
+    content: "";
+    width: 6%;
+    height: 2px;
+    bottom: -10px;
+    left: 0;
+    position: absolute;
+    background: #e36703;
+    border-color: #e36703;
+}
+.aptaxi-page-loop-content .aptaxi-loop-main .aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-page-loop-post-content {
+    padding: 10px 0;
+}
+.aptaxi-page-loop-content .aptaxi-loop-main .aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-page-loop-post-content ul {
+    list-style: '-';
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-page-loop-post-content ul li::before {
+    font-size: 28px;
+    content: "-";
+    position: absolute;
+    left: -10px;
+}
+.aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-page-loop-post-content ul li {
+    padding-left: 3px;
+    font-size: 20px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    color: #898989;
+}
+
+
+.aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-page-forms-about-us {
+    position: relative;
+    padding: 30px 0;
+}
+.aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me {
+    border-radius: 5px;
+    border: 1px solid #e36703;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+.aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-yandex-about-us .aptaxi-page-form-call-me {
+    border-radius: 5px;
+    border: 1px solid #ffd135;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+.aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-thumbnail {
+    padding-left: 30px;
+    padding-top: 100px;
+    width: 40%;
+}
+.aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description {
+    width: 53%;
+    position: relative;
+    margin-left: auto;
+    padding: 45px 0;
+    padding-top: 5px;
+}
+.aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description legend {
+    font-size: 30px;
+    font-family: "Segoe UI Black";
+    line-height: 1.45;
+    color: #e46701;
+}
+.aptaxi-loop-page-post .aptaxi-yandex-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description legend {
+    color: #ffd135;
+}
+.aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description p {
+    padding: 10px 0;
+    line-height: 1.35;
+}
+.aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description p span {
+    width: 100%;
+    font-size: 18px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    color: #898989;
+}
+.aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description p strong {
+    width: 100%;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    color: #2b2a2b;
+}
+.aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description p strong a {
+    font-size: 30px;
+    font-family: "Segoe UI Black";
+    color: #2b2a2b;
+}
+.aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-thumbnail-people {
+    position: absolute;
+    z-index: 999;
+    bottom: 0px;
+    width: 150px;
+    left: 30px;
+}
+.aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description .aptaxi_page_call_me {
+    background-color: #e36703;
+    color: #fff;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    position: absolute;
+    right: -12px;
+    bottom: 0;
+    border-bottom-right-radius: 6px;
+}
+.aptaxi-loop-page-post .aptaxi-yandex-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description .aptaxi_page_call_me {
+    background-color: #ffd135;
+    color: #2b2a2b;
+}
+.aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description .aptaxi_page_call_me:hover {
+    background-color: #2b2a2b;
+    color: #e36703;
+}
+.aptaxi-loop-page-post .aptaxi-yandex-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description .aptaxi_page_call_me:hover {
+    color: #ffd135;
+    background-color: #2b2a2b;
+}
+.aptaxi-page-form-call-me .aptaxi-page-form-description .aptaxi_page_call_me i {
+    font-size: 15px;
+}
+.aptaxi-page-form-call-me .aptaxi-page-form-description .aptaxi_page_call_me span {
+    font-size: 15px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+}
+
+
+.aptaxi-page-form-autoregistration {
+    margin-top: 20px;
+    width: 100%;
+    height: 275px;
+    border: 1px solid #e36703;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px;
+    position: relative;
+}
+.aptaxi-loop-page-post .aptaxi-yandex-registration {
+    border: 1px solid #ffd135;
+}
+.aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-left-column {
+    width: 45%;
+    padding-left: 25px;
+}
+.aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-left-column h3 {
+    font-size: 30px;
+    font-family: "Segoe UI Black";
+    line-height: 30px;
+    color: #e46701;
+    padding-bottom: 10px;
+}
+.aptaxi-loop-page-post .aptaxi-yandex-registration .aptaxi-form-autoregistration-left-column h3 {
+    color: #ffd135;
+}
+.aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-left-column span {
+    font-size: 18px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    color: #898989;
+    line-height: 18px;
+    display: block;
+}
+.aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-left-column .aptaxi-form-link-register-wrapper {
+    background-color: #fff;
+    position: absolute;
+    bottom: -15px;
+    left: -3px;
+    width: 275px;
+    height: 70px;
+}
+.aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-left-column .aptaxi-form-link-register-wrapper .aptaxi-form-link-regist {
+    background-color: #e46701;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 262px;
+    padding: 15px 0px;
+    margin-top: 8px;
+}
+.aptaxi-loop-page-post .aptaxi-yandex-registration .aptaxi-form-autoregistration-left-column .aptaxi-form-link-register-wrapper .aptaxi-form-link-regist {
+    background-color: #ffd135;
+    color: #2b2a2b;
+}
+.aptaxi-form-autoregistration-left-column .aptaxi-form-link-register-wrapper .aptaxi-form-link-regist span {
+    color: #fff;
+    font-size: 15px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 3px;
+}
+.aptaxi-loop-page-post .aptaxi-yandex-registration .aptaxi-form-autoregistration-left-column .aptaxi-form-link-register-wrapper .aptaxi-form-link-regist span {
+    color: #2b2a2b;
+}
+.aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-left-column .aptaxi-form-link-register-wrapper .aptaxi-form-link-regist:hover {
+    background-color: #2b2a2b;
+    color: #e46701;
+}
+.aptaxi-yandex-registration .aptaxi-form-autoregistration-left-column .aptaxi-form-link-register-wrapper .aptaxi-form-link-regist:hover {
+    background-color: #2b2a2b;
+    color: #ffd135;
+}
+.aptaxi-form-autoregistration-left-column .aptaxi-form-link-register-wrapper .aptaxi-form-link-regist:hover span {
+    color: #e46701;
+}
+.aptaxi-yandex-registration .aptaxi-form-autoregistration-left-column .aptaxi-form-link-register-wrapper .aptaxi-form-link-regist:hover span {
+    color: #ffd135;
+}
+.aptaxi-form-autoregistration-left-column .aptaxi-form-link-register-wrapper .aptaxi-form-link-regist span i {
+    font-size: 18px;
+}
+.aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-right-column {
+    width: 45%;
+    padding: 0;
+    margin: 0;
+} 
+.aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-right-column img {
+    position: absolute;
+    width: auto;
+    height: 300px;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+.aptaxi-loop-page-post .aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content,
+.aptaxi-loop-page-post .aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding: 20px 0;
+} 
+
+.aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-citymobil-left,
+.aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-citymobil-right,
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-yandex-left, 
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-yandex-right {
+    width: 50%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-citymobil-left,
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-yandex-left
+ {
+    margin-right: 5px;
+}
+.aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-page-citymobil-item .aptaxi-advant-loop-link,
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-page-yandex-item .aptaxi-advant-loop-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px 0;
+    padding-right: 10px;
+}
+.aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-page-citymobil-item .aptaxi-advant-loop-link img,
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-page-yandex-item .aptaxi-advant-loop-link img {
+    margin-right: 25px;
+    height: 80px;
+    width: 80px;
+    filter: none;
+}
+.aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-page-citymobil-item .aptaxi-advant-loop-link span,
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-page-yandex-item .aptaxi-advant-loop-link span {
+    color: #666666;
+    font-size: 17px;
+    font-family: "Segoe UI Bold";
+    font-weight: bold;
+    line-height: 24px;
+}
+.aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-page-citymobil-item .aptaxi-advant-loop-link:hover,
+.aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-page-citymobil-item .aptaxi-advant-loop-link:hover > span,
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-page-yandex-item .aptaxi-advant-loop-link:hover,
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-page-yandex-item .aptaxi-advant-loop-link:hover span {
+    color: #e36703;
+}
+.aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-page-citymobil-item .aptaxi-advant-loop-link:hover img,
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-page-yandex-item .aptaxi-advant-loop-link:hover img {
+    filter: brightness(0);
+}
+.aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-page-citymobil-item,
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-page-yandex-item {
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0;
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+}
+.aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-citymobil-left >:first-child,
+.aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-citymobil-right >:first-child,
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-yandex-left >:first-child,
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-yandex-right >:first-child {
+    border-top: none;
+}
+.aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-citymobil-right >:nth-child(2),
+.aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-citymobil-left >:nth-child(2),
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-yandex-left >:nth-child(5),
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-yandex-right >:nth-child(5),
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-yandex-left >:nth-child(2),
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-yandex-right >:nth-child(2) {
+    border: none;
+}
+.aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-citymobil-left >:nth-child(4),
+.aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-citymobil-right >:nth-child(4),
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-yandex-right >:nth-child(4),
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-yandex-left >:nth-child(4) {
+    border-top: none;
+}
+.aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-citymobil-left >:nth-child(4),
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-yandex-left >:last-child {
+    border-bottom: none;
+}
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-yandex-left .aptaxi-advant-loop-link span,
+.aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-yandex-right .aptaxi-advant-loop-link span {
+    font-size: 15px;
+}
+
+.aptaxi-loop-main-content .aptaxi-btn-archive-content-wrapper {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+.aptaxi-loop-main-content .aptaxi-btn-archive-content-wrapper .aptaxi-category-btn {
+    background-color: #999999;
+    display: block;
+    color: #636363;
+    font-size: 24px;
+    font-family: "Segoe UI Bold";
+    font-weight: bolder;
+    line-height: 18px;
+    padding: 20px 25px;
+}
+.aptaxi-loop-main-content .aptaxi-btn-archive-content-wrapper .aptaxi-cat-active,
+.aptaxi-loop-main-content .aptaxi-btn-archive-content-wrapper .aptaxi-category-btn:hover {
+    background-color: #ffd135;
+    color: #000;
+}
+.aptaxi-loop-main-content .aptaxi-btn-archive-content-wrapper >:first-child {
+    margin-right: 10px;
+}
+
+.aptaxi-loop-main-content .aptaxi-post-content .aptaxi-categories-content {
+    padding: 15px 10px;
+    width: 85%;
+}
+.aptaxi-loop-main-content .aptaxi-post-content .aptaxi-categories-content .aptaxi-category-post {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #898989;
+}
+.aptaxi-categories-content .aptaxi-category-post .aptaxi-category-loop-post-content {
+    width: 100%;
+}
+.aptaxi-categories-content .aptaxi-category-post .aptaxi-category-loop-post-content .aptaxi-cat-title {
+    font-size: 26px;
+    font-family: "Segoe UI Bold";
+    font-weight: bolder;
+    line-height: 1.1;
+    color: #e46701;
+    margin-bottom: 10px;
+}
+.aptaxi-categories-content .aptaxi-category-post .aptaxi-category-loop-post-content time {
+    font-size: 15px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    color: #898989;
+    padding: 10px 0;
+}
+.aptaxi-categories-content .aptaxi-category-post .aptaxi-category-loop-post-content .aptaxi-cat-loop-excerpt {
+    padding: 10px 0;
+}
+.aptaxi-categories-content .aptaxi-category-post .aptaxi-category-loop-post-content .aptaxi-cat-loop-excerpt p,
+.aptaxi-categories-content .aptaxi-category-post .aptaxi-category-loop-post-content .aptaxi-cat-loop-excerpt pre,
+.aptaxi-categories-content .aptaxi-category-post .aptaxi-category-loop-post-content .aptaxi-cat-loop-excerpt span {
+    font-size: 18px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    line-height: 1.35;
+    color: #898989;
+}
+.aptaxi-categories-content .aptaxi-category-post .aptaxi-category-loop-post-content .aptaxi-news-btn-read {
+    font-size: 15px;
+    font-family: "Segoe UO";
+    font-weight: 500;
+    line-height: 1.4;
+    color: #2b2a2b;
+    text-decoration: underline;
+    text-transform: uppercase;
+    float: right;
+    padding: 10px 0;
+}
+
+
+
+.aptaxi-loop-main .aptaxi-loop-main-content .aptaxi-loop-single-post {
+    width: 85%;
+}
+.aptaxi-loop-main-content .aptaxi-loop-single-post .aptaxi-single-page-content {
+    width: 100%;
+}
+.aptaxi-loop-single-post .aptaxi-single-page-content .aptaxi-single-date-publish {
+    padding: 10px 0;
+}
+.aptaxi-loop-single-post .aptaxi-single-page-content .aptaxi-single-date-publish time {
+    font-size: 15px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    color: #b7b7b7;
+}
+.aptaxi-loop-single-post .aptaxi-single-page-content .aptaxi-single-excerpt {
+    width: 100%;
+    padding: 10px 0;
+}
+.aptaxi-loop-single-post .aptaxi-single-page-content .aptaxi-single-excerpt .aptaxi-single-thumbnail {
+    width: 40%;
+    padding: 0;
+    float: left;
+    padding-top: 0;
+    margin-right: 10px;
+}
+.aptaxi-loop-single-post .aptaxi-single-page-content .aptaxi-single-excerpt p {
+    font-size: 15px;
+    font-family: "Segoe UI";
+    line-height: 1.25;
+    font-weight: 500;
+    color: #898989;
+    padding-bottom: 10px;
+}
+.aptaxi-loop-single-post .aptaxi-single-page-content .aptaxi-single-excerpt >:nth-child(2),
+.aptaxi-loop-single-post .aptaxi-single-page-content .aptaxi-single-excerpt >:nth-child(3) {
+    font-weight: 700;
+    color: #2b2a2b;
+}
+.aptaxi-loop-single-post .aptaxi-single-page-content .aptaxi-single-excerpt >:nth-child(2),
+.aptaxi-loop-single-post .aptaxi-single-page-content .aptaxi-single-excerpt >:nth-child(3)  {
+    padding-bottom: 10px;
+}
+
+
+
+
+
+.navigation .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation .nav-links > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #898989;
+    color: #898989;
+    margin: 0 4px;
+}
+.navigation .nav-links > a:hover {
+    background-color: #e46701;
+    color: #fff;
+}
+
+.aptaxi-sidebar-content > * {
+    position: relative;
+    margin: 20px 0;
+}
+.aptaxi-sidebar-content > :first-child {
+    margin-top: 0;
+}
+.aptaxi-sidebar-content > :last-child {
+    margin-bottom: 0;
+}
+
+
+.aptaxi-website-content .aptaxi-section-title-wrapper .aptaxi-section-title > * {
+    line-height: 1.25;
+}
+
+
+.aptaxi-form-modal-wrapper {
+    display: none;
+}
+.aptaxi-form-modal-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+.aptaxi-form-modal-wrapper .aptaxi-form-modal-content {
+    display: block;
+    position: relative;
+    width: 50%;
+    height: auto;
+    /* margin: 0 auto; */
+    left: 25%;
+    top: 10%;
+    padding: 5px;
+    padding-bottom: 35px;
+    background-color: #000;
+    border-radius: 13px;
+    z-index: 105;
+}
+.aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 9999;
+    color: #fff;
+    cursor: pointer;
+    right: 15px;
+    top: 25px;
+}
+.aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-close:hover {
+    color: #ffd135;
+}
+.aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 13px;
+    border: 1px solid #e46701;
+    background: transparent;
+    color: #fff;
+    display: flex;
+    flex-flow: column wrap;
+}
+.aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-legend-modal {
+    text-align: center;
+    font-size: 32px;
+    font-family: "Segoe UI Black";
+    text-transform: uppercase;
+    line-height: 1.35;
+}
+.aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback span {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    color: #fff;
+}
+.aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-form-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    padding: 5px;
+}
+.aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-form-group label {
+    font-size: 15px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.45;
+    padding-bottom: 4px;
+}
+.aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-form-group .aptaxi-modal-input {
+    width: 100%;
+    padding: 3px 5px;
+    font-size: 15px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    color: #636363;
+}
+.aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-form-group-radiobtn {
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-form-group-radiobtn .aptaxi-form-radio-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    padding: 10px 0;
+    position: relative;
+}
+.aptaxi-form-modal-callback .aptaxi-form-group-radiobtn .aptaxi-form-radio-wrapper .aptaxi-modal-radiobtn {
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #fff;
+    background-color: #000;
+    transition: 0.2s all linear;
+    outline: none;
+    position: relative;
+}
+.aptaxi-form-modal-callback .aptaxi-form-group-radiobtn .aptaxi-form-radio-wrapper .aptaxi-modal-radiobtn:checked {
+    top: -1px;
+    background-color: #e36703;
+    border: 4px solid #fff;
+    width: 18px;
+    height: 18px;
+}
+.aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-form-check {
+    width: 95%;
+    margin: 0 auto;
+    border-top: 1px solid #666666;
+    padding: 15px 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row nowrap;
+    margin-bottom: 10px;
+}
+.aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-form-check .sptaxi-modal-check-input {
+    width: 40px;
+    height: 15px;
+    margin-right: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #fff;
+    background-color: #000;
+    transition: 0.2s all linear;
+    outline: none;
+    position: relative;
+}
+.aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-form-check label {
+    font-size: 15px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    color: #898989;
+    text-transform: none;
+    line-height: 1.25;
+}
+.aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-form-check .sptaxi-modal-check-input:checked {
+    width: 35px;
+    height: 16px;
+    background-color: #e36703;
+    border: 4px solid #fff;
+}
+.aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-modal-btn-wrapper {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    z-index: 99999;
+    bottom: 15px;
+    margin: 0 auto;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+}
+.aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-modal-btn-wrapper .aptaxi-modal-btn-success {
+    width: 275px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    background-color: #e46701;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+.aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-modal-btn-wrapper .aptaxi-modal-btn-success span {
+    font-size: 15px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+}
+.aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-modal-btn-wrapper .aptaxi-modal-btn-success i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+.aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-modal-btn-wrapper .aptaxi-modal-btn-success:hover {
+    background-color: #999999;
+}
+
+.aptaxi-modal-reqired-wrapper {
+    display: none;
+}
+.aptaxi-modal-reqired-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+.aptaxi-modal-reqired-wrapper .aptaxi-modal-reqired-content {
+    display: block;
+    position: relative;
+    width: 25%;
+    height: auto;
+    margin: 0 auto; 
+    top: 10%;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 13px;
+    border: 1px solid #e36703;
+    z-index: 105;
+}
+.aptaxi-modal-reqired-wrapper .aptaxi-modal-reqired-content .aptaxi-btn-message-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+.aptaxi-modal-reqired-wrapper .aptaxi-modal-reqired-content .aptaxi-btn-message-close:hover {
+    color: #e36703;
+}
+.aptaxi-modal-reqired-wrapper .aptaxi-modal-reqired-content span {
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    letter-spacing: 1.25px;
+    margin: 0 auto;
+    display: block;
+}
+.aptaxi-modal-reqired-wrapper .aptaxi-modal-reqired-content .aptaxi-btn-message {
+    margin: 0 auto;
+    margin-top: 10px;
+    border: none;
+    background-color: #e36703;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+.aptaxi-modal-reqired-wrapper .aptaxi-modal-reqired-content .aptaxi-btn-message:hover {
+    background-color: #999999;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .aptaxi-loop-page-post .aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content, 
+    .aptaxi-loop-page-post .aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content {
+        flex-flow: column wrap;
+    }
+    .aptaxi-loop-page-post .aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content >:first-child,
+    .aptaxi-loop-page-post .aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content >:first-child {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-citymobil-left,
+    .aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-citymobil-right,
+    .aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-yandex-left,
+    .aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-yandex-right {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-page-loop-post-content ul li {
+        font-size: 15px;
+        width: 100%;
+        padding: 5px;
+        line-height: 1.25;
+        padding-left: 10px;
+    }
+
+
+
+
+    .aptaxi-website-content .aptaxi-page-loop {
+        width: 100%;
+    }
+    .aptaxi-categories-content .aptaxi-home-loop-post {
+        width: 100%;
+    }
+    .aptaxi-website-content .aptaxi-section-title-wrapper {
+        padding: 10px;
+    }
+    .aptaxi-website-content .aptaxi-section-title-wrapper .aptaxi-section-title::before {
+        display: none;
+    }
+    .aptaxi-website-content .aptaxi-section-title-wrapper .aptaxi-section-title > * {
+        text-align: center;
+    }
+    .aptaxi-advantage-section .aptaxi-advantage-section-wrapper .aptaxi-advantage-section-content .aptaxi-advantage-grid {
+        width: 100%;
+        padding: 10px;  
+    }
+
+
+
+    .aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content {
+        flex-flow: column-reverse wrap;
+    }
+    .aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content .aptaxi-left-columns {
+        width: 100%;
+    }
+    .aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-page-forms-about-us {
+        width: 100%;
+    }
+    .aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-thumbnail-people {
+        display: none;
+    }
+    .aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me {
+        width: 100%;
+        flex-flow: column wrap;
+        height: auto;
+    }
+    .aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-thumbnail,
+    .aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        padding-bottom: 45px;
+    }
+    .aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-thumbnail {
+        padding-bottom: 10px;
+    }
+    .aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description .aptaxi_page_call_me {
+        left: -11px;
+    }
+    .aptaxi-page-form-autoregistration {
+        width: 100%;
+        height: auto;
+        flex-flow: column-reverse wrap;
+    }
+    .aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-left-column,
+    .aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-right-column {
+        width: 100%;
+    }
+    .aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-right-column {
+        display: none;
+    }
+    .aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-left-column .aptaxi-form-link-register-wrapper {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: auto;
+    }
+    .aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-left-column .aptaxi-form-link-register-wrapper .aptaxi-form-link-regist {
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+    .aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-left-column {
+        padding-left: 0;
+    }
+    .aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-left-column h3 {
+        width: 100%;
+        word-break: normal;
+        font-size: 23px;
+    }
+    .aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content .aptaxi-loop-main {
+        width: 100%;
+    }
+    .aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description legend {
+        font-size: 24px;
+    }
+    .aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description p strong a {
+        font-size: 22px;
+    }
+    .aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description p span {
+        font-size: 16px;
+    }
+    .aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-left-column span {
+        font-size: 16px;
+        padding-bottom: 0;
+    }
+    .aptaxi-page-loop-content .aptaxi-loop-main .aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-title-page::before {
+        display: none;
+    }
+    .aptaxi-page-loop-content .aptaxi-loop-main .aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-title-page {
+        line-height: 1.15;
+        font-size: 21px;
+    }
+    .aptaxi-form-widget-yandex-wrapper .aptaxi-form-widget-yandex,
+    .aptaxi-form-widget-minify-citymobil-wrapper .aptaxi-minify-form-citymobil {
+        max-width: 273px;
+    }
+
+
+
+    .aptaxi-loop-main-content .aptaxi-btn-archive-content-wrapper {
+        flex-flow: column wrap;
+    }
+    .aptaxi-loop-main-content .aptaxi-btn-archive-content-wrapper >:first-child {
+        margin-right: 0;
+    }
+    .aptaxi-loop-main-content .aptaxi-btn-archive-content-wrapper .aptaxi-category-btn {
+        margin: 5px 0;
+        width: 200px;
+        text-align: center;
+    }
+    .aptaxi-loop-main-content .aptaxi-post-content .aptaxi-categories-content {
+        width: 100%;
+        padding: 10px;
+        margin-top: 15px;
+    }
+    .aptaxi-categories-content .aptaxi-category-post .aptaxi-category-loop-post-content .aptaxi-cat-title {
+        font-size: 24px;
+    }
+
+
+    .aptaxi-page-loop-content .aptaxi-loop-main .AptaxiBreadcrumbs {
+        flex-wrap: wrap;
+    }
+
+    .aptaxi-loop-main .aptaxi-loop-main-content .aptaxi-loop-single-post .aptaxi-title-page-wrapper .aptaxi-title-page {
+        width: 100%;
+        font-size: 24px;
+    }
+    .aptaxi-loop-single-post .aptaxi-single-page-content .aptaxi-single-excerpt .aptaxi-single-thumbnail {
+        float: auto;
+        width: 100%;
+    }
+    .aptaxi-loop-main .aptaxi-loop-main-content .aptaxi-loop-single-post {
+        width: 100%;
+    }
+}
+
+/* @media (min-width: 481px) and (max-width: 768px) {
+    .aptaxi-advantage-section .aptaxi-advantage-section-wrapper .aptaxi-advantage-section-content .aptaxi-advantage-grid {
+        width: 100%;
+    }
+
+    .aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content .aptaxi-left-columns,
+    .aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content .aptaxi-loop-main {
+        width: 100%;
+    }
+
+} */
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content {
+        flex-flow: column-reverse wrap;
+    }
+    .aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content .aptaxi-left-columns, 
+    .aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content .aptaxi-loop-main {
+        width: 100%;
+    }
+    .aptaxi-loop-page-post .aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content, 
+    .aptaxi-loop-page-post .aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content {
+        flex-wrap: wrap;
+    }
+    .aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content {
+        flex-flow: column-reverse wrap;
+    }
+    .aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content .aptaxi-left-columns {
+        width: 100%;
+    }
+    .aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-page-forms-about-us {
+        width: 100%;
+    }
+    .aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-thumbnail-people {
+        display: none;
+    }
+    .aptaxi-loop-main-content .aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me {
+        width: 100%;
+        flex-flow: column wrap;
+        height: auto;
+    }
+    .aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-thumbnail,
+    .aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        padding-bottom: 45px;
+    }
+    .aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-thumbnail {
+        padding-bottom: 10px;
+    }
+    .aptaxi-loop-page-post .aptaxi-page-forms-about-us .aptaxi-page-form-call-me .aptaxi-page-form-description .aptaxi_page_call_me {
+        left: -11px;
+    }
+    .aptaxi-page-form-autoregistration {
+        width: 100%;
+        height: auto;
+        flex-flow: column-reverse wrap;
+    }
+    .aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-left-column,
+    .aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-right-column {
+        width: 100%;
+    }
+    .aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-right-column {
+        display: none;
+    }
+    .aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-left-column .aptaxi-form-link-register-wrapper {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: auto;
+    }
+    .aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-left-column .aptaxi-form-link-register-wrapper .aptaxi-form-link-regist {
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+    .aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-left-column {
+        padding-left: 0;
+    }
+    .aptaxi-page-form-autoregistration .aptaxi-form-autoregistration-left-column h3 {
+        width: 100%;
+        word-break: normal;
+        font-size: 23px;
+    }
+    .aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content .aptaxi-loop-main {
+        width: 100%;
+    }
+    .aptaxi-website-content .aptaxi-page-loop {
+        width: 100%;
+    }
+    .aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content .aptaxi-advantage-citymobil-left,
+    .aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content .aptaxi-advantage-yandex-left {
+        margin-right: 0;
+    }
+
+    .aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content .aptaxi-left-columns .aptaxi-sidebar-content {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content .aptaxi-left-columns .aptaxi-sidebar-content > * {
+        width: 45%;
+        margin: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .aptaxi-website-content .aptaxi-page-loop {
+        width: 100%;
+    }
+
+}

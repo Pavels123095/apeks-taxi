@@ -1,0 +1,271 @@
+.aptaxi-header {
+    background-color: #242324;
+    padding: 20px 0;
+}
+
+.aptaxi-header-wrapper .aptaxi-header-content {
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.aptaxi-header-wrapper .aptaxi-header-content > * {
+    align-items: center;
+    text-align: center;
+}
+.aptaxi-header-wrapper .aptaxi-header-content .aptaxi-header-logo a {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.aptaxi-header-wrapper .aptaxi-header-content .aptaxi-header-logo a img {
+    width: 294px;
+    height: 97px;
+}
+.aptaxi-header-wrapper .aptaxi-header-content .aptaxi-header-description > * {
+    font-size: 26px;
+    line-height: 1.35;
+    font-family: "Oswald SemiBold";
+    text-transform: uppercase;
+}
+
+.aptaxi-header-wrapper .aptaxi-header-content .aptaxi-header-widget .widget p a,
+.aptaxi-header-social-wrapper .aptaxi-header-social-content .aptaxi-header-widget p a {
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Oswald Regular";
+    line-height: 1.75;
+}
+.aptaxi-header-wrapper .aptaxi-header-content .aptaxi-header-widget .widget p a:hover,
+.aptaxi-header-social-wrapper .aptaxi-header-social-content .aptaxi-header-widget p a:hover {
+    color: #e36703;
+}
+.aptaxi-header-wrapper .aptaxi-header-content .aptaxi-header-widget .widget .textwidget >:last-child,
+.aptaxi-header-social-wrapper .aptaxi-header-social-content .aptaxi-header-widget .widget .textwidget >:last-child {
+    padding-left: 20%;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #6d6d6d;
+    font-family: "Oswald Regular";
+}
+
+
+
+
+.aptaxi-header-pages .aptaxi-header-social-section .aptaxi-header-social-wrapper,
+.aptaxi-header-pages .aptaxi-header-website-description-section .aptaxi-header-website-description-wrapper {
+    width: 1120px;
+}
+.aptaxi-header-social-section .aptaxi-header-social-wrapper .aptaxi-header-social-content {
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.aptaxi-header-social-section .aptaxi-header-social-wrapper .aptaxi-header-social-content .aptaxi-header-social-icon {
+    width: 10%;
+}
+.aptaxi-header-social-section .aptaxi-header-social-wrapper .aptaxi-header-social-content hr {
+    width: 75%;
+    border-color: #808080;
+}
+.aptaxi-header-social-section .aptaxi-header-social-wrapper .aptaxi-header-social-content .aptaxi-header-widget {
+    width: 25%;
+    text-align: right;
+}
+.aptaxi-header-website-description-wrapper .aptaxi-header-website-description-content {
+    align-items: center;
+    justify-content: flex-start;
+} 
+.aptaxi-header-website-description-wrapper .aptaxi-header-website-description-content .aptaxi-header-logo {
+    width: 350px;
+}
+.aptaxi-header-website-description-wrapper .aptaxi-header-website-description-content .aptaxi-header-description {
+    width: 85%;
+    margin-left: 40px;
+    text-align: left;
+    border-right: 1px solid #808080;
+    margin-right: 10px;
+}
+.aptaxi-header-website-description-wrapper .aptaxi-header-website-description-content .aptaxi-header-description strong {
+    width: 100%;
+    display: inline-block;
+}
+.aptaxi-header-website-description-wrapper .aptaxi-header-website-description-content .aptaxi-header-description span {
+    font-family: "Segoe UI light";
+    color: #808080;
+}
+
+
+
+
+.aptaxi-header-social-section .aptaxi-header-social-wrapper .aptaxi-header-social-content .aptaxi-header-social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aptaxi-header-social-section .aptaxi-header-social-wrapper .aptaxi-header-social-content .aptaxi-header-social-icon a {
+    display: block;
+    margin: 0 5px;
+    font-size: 21px;
+    color: #fff;
+}
+.aptaxi-header-social-section .aptaxi-header-social-wrapper .aptaxi-header-social-content .aptaxi-header-social-icon a:hover {
+    color: #e36703;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .aptaxi-header-wrapper {
+        width: 100%;
+    }
+    .aptaxi-header-wrapper .aptaxi-header-content {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .aptaxi-header-wrapper .aptaxi-header-content > * {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .aptaxi-header-social-section .aptaxi-header-social-wrapper .aptaxi-header-social-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .aptaxi-header-social-section .aptaxi-header-social-wrapper .aptaxi-header-social-content hr {
+        width: 100%;
+    }
+    .aptaxi-header-social-section .aptaxi-header-social-wrapper .aptaxi-header-social-content .aptaxi-header-widget {
+        width: 100%;
+        text-align: center;
+    }
+    .aptaxi-header-social-wrapper .aptaxi-header-social-content .aptaxi-header-widget .widget .textwidget >:last-child {
+        padding-left: 0;
+        text-align: center;
+    }
+    .aptaxi-header-website-description-wrapper .aptaxi-header-website-description-content .aptaxi-header-logo {
+        width: 100%;
+    }
+    .aptaxi-header-pages .aptaxi-header-social-section .aptaxi-header-social-wrapper,
+    .aptaxi-header-pages .aptaxi-header-website-description-section .aptaxi-header-website-description-wrapper {
+        width: 100%;
+    }
+    .aptaxi-header-website-description-wrapper .aptaxi-header-website-description-content .aptaxi-header-description {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+        border: none;
+    }
+    .aptaxi-header-wrapper .aptaxi-header-content .aptaxi-header-logo a img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .aptaxi-header-wrapper {
+        width: 100%;
+    }
+    .aptaxi-header-wrapper .aptaxi-header-content {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .aptaxi-header-wrapper .aptaxi-header-content > * {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .aptaxi-header-social-section .aptaxi-header-social-wrapper .aptaxi-header-social-content {
+        flex-flow: column wrap;
+    }
+    .aptaxi-header-social-section .aptaxi-header-social-wrapper .aptaxi-header-social-content .aptaxi-header-social-icon {
+        width: 100%;
+    }
+    .aptaxi-header-social-section .aptaxi-header-social-wrapper .aptaxi-header-social-content .aptaxi-header-widget {
+        width: 100%;
+        text-align: center;
+    }
+    .aptaxi-header-wrapper .aptaxi-header-content .aptaxi-header-widget .widget .textwidget >:last-child,
+    .aptaxi-header-social-wrapper .aptaxi-header-social-content .aptaxi-header-widget .widget .textwidget >:last-child {
+        padding: 0;
+    }
+    .aptaxi-header-website-description-wrapper .aptaxi-header-website-description-content .aptaxi-header-logo {
+        width: auto;
+    }
+    .aptaxi-header-website-description-wrapper .aptaxi-header-website-description-content .aptaxi-header-description {
+        width: 100%;
+        margin: 5px 0;
+        border: none;
+        text-align: center;
+    }
+
+    .aptaxi-header-pages .aptaxi-header-social-section .aptaxi-header-social-wrapper,
+    .aptaxi-header-pages .aptaxi-header-website-description-section .aptaxi-header-website-description-wrapper {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .aptaxi-header-wrapper .aptaxi-header-content {
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .aptaxi-header-wrapper .aptaxi-header-content > * {
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .aptaxi-header-wrapper .aptaxi-header-content .aptaxi-header-logo {
+        width: 40%;
+    }
+    .aptaxi-header-wrapper .aptaxi-header-content .aptaxi-header-description {
+        width: 55%;
+        border: none;
+    }
+    .aptaxi-header-social-section .aptaxi-header-social-wrapper .aptaxi-header-social-content {
+        flex-wrap: wrap;
+    }
+    .aptaxi-header-social-section .aptaxi-header-social-wrapper .aptaxi-header-social-content .aptaxi-header-social-icon {
+        width: 100%;
+    }
+    .aptaxi-header-social-section .aptaxi-header-social-wrapper .aptaxi-header-social-content .aptaxi-header-widget {
+        width: 100%;
+        text-align: center;
+    }
+    .aptaxi-header-pages .aptaxi-header-social-section .aptaxi-header-social-wrapper,
+    .aptaxi-header-pages .aptaxi-header-website-description-section .aptaxi-header-website-description-wrapper {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .aptaxi-header-social-section .aptaxi-header-social-wrapper .aptaxi-header-social-content {
+        flex-wrap: nowrap;
+    }
+    .aptaxi-header-pages .aptaxi-header-social-section .aptaxi-header-social-wrapper,
+    .aptaxi-header-pages .aptaxi-header-website-description-section .aptaxi-header-website-description-wrapper {
+        width: 100%;
+    }
+    .aptaxi-header-website-description-wrapper .aptaxi-header-website-description-content .aptaxi-header-description {
+        width: 90%;
+    }
+    .aptaxi-header-website-description-wrapper .aptaxi-header-website-description-content .aptaxi-header-logo {
+        width: 35%;
+    }
+    .aptaxi-header-website-description-wrapper .aptaxi-header-website-description-content {
+        width: 100%;
+        margin: 0;
+    }
+}
