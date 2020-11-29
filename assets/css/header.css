@@ -215,6 +215,13 @@
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
+
+    .aptaxi-header-wrapper .aptaxi-header-content .aptaxi-header-widget .widget .textwidget >:last-child, .aptaxi-header-social-wrapper .aptaxi-header-social-content .aptaxi-header-widget .widget .textwidget >:last-child {
+        padding-left: 0;
+    }
+
+
+
     .aptaxi-header-wrapper .aptaxi-header-content {
         flex-wrap: nowrap;
         align-items: center;

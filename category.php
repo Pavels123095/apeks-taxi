@@ -15,7 +15,7 @@
                                 $current_url = 'http://taxi.planer-studio.ru'.$Path;
                         ?>
                         <a href="<?php echo get_category_link( 12 ); ?>" data-name="<?php echo get_cat_name( 12 ); ?>"
-                         class="aptaxi-category-btn btn-cat-12 <?php if ($current_url == 'http://taxi.planer-studio.ru/category/yandex-taxi/' OR $current_url == 'http://taxi.planer-studio.ru/?cat=13') {
+                         class="aptaxi-category-btn btn-cat-12 <?php if ($current_url == 'http://taxi.planer-studio.ru/category/yandex-taxi/' OR $current_url == 'http://taxi.planer-studio.ru/category/yandex-taxi/news-yandex/') {
                           echo ' aptaxi-cat-active';} ?>">
                             <?php echo get_cat_name( 12 ); ?>
                         </a>

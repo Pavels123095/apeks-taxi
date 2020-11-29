@@ -148,7 +148,9 @@ class AptaxiWidgetYandex extends WP_Widget {
 					border: none;
 					display: inline-block;
                     padding: 15px 50px;
-					font-size: 15px;
+                    font-size: 15px;
+                    font-family: "Segoe UI";
+                    font-weight: 600;
                     background-color: #ffd135;
                     text-transform: uppercase;
 					color: #000;

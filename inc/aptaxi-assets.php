@@ -22,7 +22,7 @@ class ApTaxiAssetsLoad {
 
 	public function aptaxi_scripts() {
 		$suffix = ( WP_DEBUG === true ) ? '' : '.min';
-
+		wp_enqueue_script( 'aptaxi-mask', get_template_directory_uri() . '/assets/js/jquery.mask.js' , array('jquery'), wp_get_theme( 'Apeks Taxi' )->get( 'Version' ), true );
 		wp_enqueue_script( 'aptaxi-common', get_template_directory_uri() . '/assets/js/common' . $suffix . '.js', array('jquery'), wp_get_theme( 'Apeks Taxi' )->get( 'Version' ), true );
 		wp_localize_script( 'aptaxi-common', 'aptaxiData', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 	}

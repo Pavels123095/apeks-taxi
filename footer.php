@@ -34,9 +34,9 @@ if ( ! defined( 'ABSPATH' ) ) {
             <div class="aptaxi-footer-form-section aptaxi-footer-section aptaxi-layout-section">
                 <div class="aptaxi-footer-form-wrapper aptaxi-layout-container">
                     <form action="" method="post" class="aptaxi-footer-form-content aptaxi-layout-row">
-                        <input type="text" name="aptaxi_fio_worker" class="aptaxi-footer-input" placeholder="Ф.И.О" require="required">
-                        <input type="text" name="aptaxi_mail_worker" class="aptaxi-footer-input" placeholder="E-mail" require="required">
-                        <input type="phone" name="aptaxi_tel_worker" class="aptaxi-footer-input" placeholder="Телефон" require="required">
+                        <input type="text" id="aptaxi_footer_fio" name="aptaxi_fio_worker" class="aptaxi-footer-input" placeholder="Ф.И.О" require="required">
+                        <input type="text" id="aptaxi_footer_mail" name="aptaxi_mail_worker" class="aptaxi-footer-input" placeholder="E-mail" require="required">
+                        <input type="text" id="aptaxi_footer_tel" name="aptaxi_tel_worker" data-mask="+7 (999) 999-99-99" class="aptaxi-footer-input" placeholder="Телефон" require="required">
                         <button type="submit" class="aptaxi-footer-form-button aptaxi-layout-btn">Подать заявку</button>
                     </form>
                 </div>

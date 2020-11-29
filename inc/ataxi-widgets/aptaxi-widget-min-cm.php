@@ -129,8 +129,8 @@ class AptaxiWidgetCityMobilMinify extends WP_Widget {
                     padding: 15px 50px;
 					display: inline-block;
 					font-size: 15px;
-					font-family: "Segoe UI";
-                    font-weight: 500;
+                    font-family: "Segoe UI";
+                    font-weight: 600;
                     text-transform: uppercase;
 					background-color: #e26703;
 					color: #fff;

@@ -177,66 +177,71 @@ function form_cat_loadposts_callback() {
 <?php }
 
 add_filter( 'wp_mail_content_type', function($content_type){
-	return "text/html";
+    $content_type = "text/html";
+	return $content_type;
 });
 
 add_action('wp_ajax_aptaxi_form_views', 'aptaxi_form_views_callback' );
 add_action('wp_ajax_nopriv_aptaxi_form_views', 'aptaxi_form_views_callback');
 function aptaxi_form_views_callback() {
     // Массив ошибок
-	$err_message = array();
-
-    // Проверяем полей имени, если пустое, то пишем сообщение в массив ошибок
-	if ( empty( $_POST['aptaxi_fio_worker'] ) ) {
-		$err_message['aptaxi_fio_worker'] = 'Пожалуйста, введите ваше имя.';
-	} else {
-		$fio = trim( $_POST['aptaxi_fio_worker'] );
-    }
-	if ( empty( $_POST['aptaxi_tel_worker'] ) ) {
-		$err_message['aptaxi_tel_worker'] = 'Пожалуйста, введите ваше имя.';
-	} else {
-		$tel = trim( $_POST['aptaxi_tel_worker'] );
-    }
-    // Проверяем полей емайла, если пустое, то пишем сообщение в массив ошибок
-	if ( empty( $_POST['aptaxi_mail_worker'] ) ) {
-		$err_message['aptaxi_mail_worker'] = 'Пожалуйста, введите адрес вашей электронной почты.';
-	} elseif ( ! preg_match( '/^[[:alnum:]][a-z0-9_.-]*@[a-z0-9.-]+\.[a-z]{2,4}$/i', $_POST['aptaxi_mail_worker'] ) ) {
-		$err_message['aptaxi_mail_worker'] = 'Адрес электронной почты некорректный.';
-	} else {
-		$email_client = trim( $_POST['aptaxi_mail_worker'] );
-    }
-
-    // Проверяем полей сообщения, если пустое, то пишем сообщение в массив ошибок
-	if ( empty( $_POST['city_worker'] )) {
-		$err_message['city_worker'] = 'Пожалуйста, введите ваш Город.';
-	} else {
-		$city_worker = trim( $_POST['city_worker'] );
-    }
-        if (!empty($_POST)) {
-
-            $city_worker = $_POST['city_worker'];
-            $email_client = $_POST['aptaxi_mail_worker'];
-            $tel = $_POST['aptaxi_tel_worker'];
-            $fio = $_POST['aptaxi_fio_worker'];
-            // Указываем адресата
-            $to = 'webmaster@taxi.planer-studio.ru';
-            $subject = "Заявка";
-            $body = 'Я , '. $fio.', Хочу устроиться к вам на работу '."\r\n";
-            $body .= 'Мой город: '.$city_worker . "\r\n";
-            $body .= 'Вот мой номер: '. $tel ."\r\n";
-            $body .= 'Вот email: '. $email_client ."\r\n";
-            $headers = 'From: '.$fio.' <prizrak12309@yandex.ru>';
-            
-            mail( $to, $subject, $body, $headers);
-            // Отправляем сообщение об успешной отправке
-            $message_success = 'Собщение отправлено. В ближайшее время с вами свяжутся.';
-            wp_send_json_success( $message_success );
+    $err_message = array();
+        // Проверяем полей имени, если пустое, то пишем сообщение в массив ошибок
+        if ( empty( $_POST['aptaxi_fio_worker'] ) ) {
+            $err_message['aptaxi_fio_worker'] = 'Пожалуйста, введите ваше имя.';
+        } else {
+            $fio = trim( $_POST['aptaxi_fio_worker'] );
+        }
+        if ( empty( $_POST['aptaxi_tel_worker'] ) ) {
+            $err_message['aptaxi_tel_worker'] = 'Пожалуйста, введите ваше имя.';
+        } else {
+            $tel = trim( $_POST['aptaxi_tel_worker'] );
         }
 
+        if (empty($_POST['aptaxi_arenda_worker'])) {
+            $arenda = '- Не указано';
+        } else {
+            if ($_POST['aptaxi_arenda_worker'] == 'give_me_car') {
+                $arenda = 'на вашей машине';
+            } else if ($_POST['aptaxi_arenda_worker'] == 'work_in_my_car') {
+                $arenda = 'на своей машине';
+            }
+        }
+
+        // Проверяем полей сообщения, если пустое, то пишем сообщение в массив ошибок
+        if ( empty( $_POST['aptaxi_city_worker'] )) {
+            $err_message['aptaxi_city_worker'] = 'Пожалуйста, введите ваш Город.';
+        } else {
+            $city_worker = trim( $_POST['aptaxi_city_worker'] );
+        }
+            
+                $city_worker = $_POST['aptaxi_city_worker'];
+                $tel = $_POST['aptaxi_tel_worker'];
+                $fio = $_POST['aptaxi_fio_worker'];
+                // Указываем адресата 
+                $to = 'prizrak12309@yandex.ru';
+                $subject = "Заявка";
+                $body = 'Я , '. $fio.', Хочу устроиться к вам на работу '."<br />";
+                $body .= 'Готов работать(машина)  '.$arenda."<br />";
+                $body .= 'Мой город: '.$city_worker . "<br />";
+                $body .= 'Вот мой номер: '. $tel ."<br />";
+                $headers = 'From: '.$fio.' <webmaster@taxi.planer-studio.ru>';
+                
+                $mail_from = wp_mail( $to, $subject, $body, $headers);
+                // Отправляем сообщение об успешной отправке
+                $message_success = 'Собщение отправлено. В ближайшее время с вами свяжутся.';
+            if ($mail_from === TRUE) {
+                echo $message_success;
+            } else {
+                echo array_shift($err_message);
+                wp_die();
+            }
+
+    wp_die();
 }
 
-add_action('wp_ajax_aptaxi_form_views', 'aptaxi_form_footer_callback' );
-add_action('wp_ajax_nopriv_aptaxi_form_views', 'aptaxi_form_footer_callback');
+add_action('wp_ajax_aptaxi_form_footer', 'aptaxi_form_footer_callback' );
+add_action('wp_ajax_nopriv_aptaxi_form_footer', 'aptaxi_form_footer_callback');
 function aptaxi_form_footer_callback() {
     // Массив ошибок
 	$err_message = array();
@@ -250,7 +255,7 @@ function aptaxi_form_footer_callback() {
 	if ( empty( $_POST['aptaxi_tel_worker'] ) ) {
 		$err_message['aptaxi_tel_worker'] = 'Пожалуйста, введите ваш телефон.';
 	} else {
-		$tel = trim( $_POST['aptaxi_tel_worker'] );
+		$tel = $_POST['aptaxi_tel_worker'];
     }
     // Проверяем полей емайла, если пустое, то пишем сообщение в массив ошибок
 	if ( empty( $_POST['aptaxi_mail_worker'] ) ) {
@@ -260,21 +265,25 @@ function aptaxi_form_footer_callback() {
 	} else {
 		$email_client = trim( $_POST['aptaxi_mail_worker'] );
     }
-            // Указываем адресата
-            $to = 'prizrak12309@yandex.ru';
-            $subject = "Заявка";
-            $body = 'Я , '. $fio.', Хочу устроиться к вам на работу <br />';
-            $body .= 'Вот мой номер: '. $tel ."<br />";
-            $body .= 'Вот email: '. $email_client ."<br />";
-            $headers = array( 'From: '.$fio.' <'.$email_client.'>','content-type: text/html; charset=UTF-8' );
-    
-            mail( $to, $subject, $body, $headers);
-            // Отправляем сообщение об успешной отправке
-            $message_success = 'Собщение отправлено. В ближайшее время с вами свяжутся.';
-            wp_send_json_success( $message_success );
+                // Указываем адресата 
+                $to = 'prizrak12309@yandex.ru';
+                $subject = "Заявка на обратный звонок";
+                $body = 'Я , '. $fio.', Хочу устроиться к вам на работу '."<br />";
+                $body .= 'Мой адрес электронной почты: '.$email_client . "<br />";
+                $body .= 'Вот мой номер: '. $tel ."<br />";
+                $headers = 'From: '.$fio.' <webmaster@taxi.planer-studio.ru>';
+                
+                $mail_from = wp_mail( $to, $subject, $body, $headers);
+                // Отправляем сообщение об успешной отправке
+                $message_success = 'Собщение отправлено. В ближайшее время с вами свяжутся.';
+            if ($mail_from === TRUE) {
+                echo $message_success;
+                wp_die();
+            } else {
+                echo array_shift($err_message);
+                wp_die();
+            }
 
-
-        wp_die();
 }
 
 function aptaxi_pagination() {

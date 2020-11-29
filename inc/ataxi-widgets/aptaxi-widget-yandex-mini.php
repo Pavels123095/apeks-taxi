@@ -127,10 +127,10 @@ class AptaxiWidgetYandexMinify extends WP_Widget {
 					border: none;
                     padding: 15px 50px;
                     font-size: 15px;
-					font-family: "Segoe UI";
+                    font-family: "Segoe UI";
+                    font-weight: 600;
                     display: inline-block;
                     text-transform: uppercase;
-                    font-weight: 500;
 					background-color: #ffd135;
 					color: #000;
 					margin-top: 10px;

@@ -148,6 +148,8 @@ class AptaxiWidgeCityMobil extends WP_Widget {
 					display: inline-block;
 					padding: 10px 50px;
                     font-size: 18px;
+                    font-family: "Segoe UI";
+                    font-weight: 600;
                     background-color: #e26703;
                     text-transform: uppercase;
 					color: #fff;

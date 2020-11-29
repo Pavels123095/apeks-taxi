@@ -742,7 +742,7 @@
     height: auto;
     /* margin: 0 auto; */
     left: 25%;
-    top: 10%;
+    top: 8%;
     padding: 5px;
     padding-bottom: 35px;
     background-color: #000;
@@ -858,8 +858,8 @@
     margin-bottom: 10px;
 }
 .aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-form-check .sptaxi-modal-check-input {
-    width: 40px;
-    height: 15px;
+    width: 17px;
+    height: 17px;
     margin-right: 10px;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -877,6 +877,7 @@
     color: #898989;
     text-transform: none;
     line-height: 1.25;
+    width: 95%;
 }
 .aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-form-check .sptaxi-modal-check-input:checked {
     width: 35px;
@@ -944,6 +945,7 @@
     margin: 0 auto; 
     top: 10%;
     padding: 10px;
+    padding-top: 35px;
     background-color: #000;
     border-radius: 13px;
     border: 1px solid #e36703;
@@ -993,6 +995,43 @@
 
 
 @media only screen and (max-width: 768px) {
+
+
+
+    .aptaxi-form-modal-wrapper .aptaxi-form-modal-content {
+        width: auto;
+        margin: 0 auto;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        overflow-y: scroll;
+    }
+    .aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-legend-modal {
+        font-size: 21px;
+    }
+    .aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback span {
+        padding-bottom: 0;
+        font-weight: 600;
+    }
+    .aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-close {
+        top: 15px;
+    }
+    .aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-form-group-radiobtn {
+        margin: 10px 0;
+    }
+    .aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-form-check label {
+        font-size: 12px;
+        width: 95%;
+    }
+    .aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-form-check {
+        width: 100%;
+        padding: 10px 5px;
+    }
+    .aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-form-group-radiobtn .aptaxi-form-radio-wrapper {
+        padding: 5px 0;
+    }
+
+
 
     .aptaxi-loop-page-post .aptaxi-advantage-citymobil-wrapper .aptaxi-advantage-citymobil-content, 
     .aptaxi-loop-page-post .aptaxi-advantage-yandex-wrapper .aptaxi-advantage-yandex-content {
@@ -1192,6 +1231,23 @@
 } */
 
 @media (min-width: 769px) and (max-width: 991px) {
+
+    .aptaxi-form-modal-wrapper .aptaxi-form-modal-content {
+        left: 10%;
+        top: 5%;
+        width: 75%;
+    }
+    .aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback span {
+        padding-bottom: 0;
+    }
+    .aptaxi-form-modal-wrapper .aptaxi-form-modal-content .aptaxi-form-modal-callback .aptaxi-form-group-radiobtn {
+        margin: 0;
+    }
+
+
+
+
+
     .aptaxi-website-content .aptaxi-page-loop .aptaxi-page-loop-content {
         flex-flow: column-reverse wrap;
     }

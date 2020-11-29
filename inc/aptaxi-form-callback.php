@@ -20,7 +20,7 @@ class AptaxiFormCallback {
                     </div>
                     <div class="aptaxi-form-group">
                         <label for="aptaxi_tel_worker">Телефон</label>
-                        <input type="text" id="aptaxi_tel" class="aptaxi-modal-input" name="aptaxi_tel_worker" required="reqiured" >
+                        <input type="text" id="aptaxi_tel" data-mask="+7 (999) 999-99-99" class="aptaxi-modal-input" name="aptaxi_tel_worker" required="reqiured" >
                     </div>
                     <div class="aptaxi-form-group">
                         <label for="aptaxi_city_worker">Город</label>
@@ -28,11 +28,11 @@ class AptaxiFormCallback {
                     </div>
                     <div class="aptaxi-form-group-radiobtn aptaxi-form-group">
                         <div class="aptaxi-form-radio-wrapper">
-                            <input type="radio" class="aptaxi-modal-radiobtn" value="give_me_car" placeholder="Хочу взять в аренду" name="aptaxi_arenda_worker">
+                            <input type="radio" class="aptaxi-modal-radiobtn" value="give_me_car" placeholder="Хочу взять в аренду" id="aptaxi_arenda" name="aptaxi_arenda_worker">
                             <label for="aptaxi_arenda_worker">Хочу взять в аренду</label>
                         </div>
                         <div class="aptaxi-form-radio-wrapper">
-                            <input type="radio" class="aptaxi-modal-radiobtn" value="work_in_my_car" placeholder="Буду работать на своей" name="aptaxi_arenda_worker">
+                            <input type="radio" class="aptaxi-modal-radiobtn" value="work_in_my_car" placeholder="Буду работать на своей" id="aptaxi_arenda" name="aptaxi_arenda_worker">
                             <label for="aptaxi_my_car_worker">Буду работать на своей</label>
                         </div>
                     </div>
